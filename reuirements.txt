@@ -1,0 +1,12 @@
+google-api-python-client
+python-dotenv
+pandas
+numpy
+matplotlib
+seaborn
+nltk
+vaderSentiment
+scikit-learn
+networkx
+python-louvain
+wordcloud
