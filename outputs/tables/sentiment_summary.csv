@@ -1,0 +1,13 @@
+brand_category,sentiment_label,count
+Comparison,Negative,446
+Comparison,Neutral,1235
+Comparison,Positive,826
+Other,Negative,2203
+Other,Neutral,8444
+Other,Positive,3707
+Samsung,Negative,661
+Samsung,Neutral,5946
+Samsung,Positive,1882
+iPhone,Negative,520
+iPhone,Neutral,2146
+iPhone,Positive,995
