@@ -45,6 +45,16 @@ def main():
 
     sentiment_summary.to_csv("outputs/tables/sentiment_summary.csv", index=False)
 
+    sentiment_percent = (
+    comments_df
+    .groupby(["brand_category", "sentiment_label"])
+    .size()
+    .reset_index(name="count"))
+    sentiment_percent["percentage"] = sentiment_percent.groupby("brand_category")["count"].transform(
+    lambda x: round((x / x.sum()) * 100, 2))
+    sentiment_percent.to_csv("outputs/tables/sentiment_percentage_summary.csv", index=False)
+    print(sentiment_percent)
+
     plt.figure(figsize=(9, 5))
     sns.countplot(
         data=comments_df,
@@ -61,6 +71,7 @@ def main():
 
     print("Saved sentiment results.")
     print(sentiment_summary)
+    
 
 
 if __name__ == "__main__":
