@@ -1,2 +1,6 @@
 nodes,edges,density,is_directed,is_weighted
+<<<<<<< HEAD
 1866,1365,0.0003922312353990845,True,True
+=======
+1815,1330,0.0004039594096725499,True,True
+>>>>>>> 408e90dd5b94d410dfe3f1c869c881599aae9b0e
