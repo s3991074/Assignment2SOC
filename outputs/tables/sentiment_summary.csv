@@ -1,5 +1,4 @@
 brand_category,sentiment_label,count
-<<<<<<< HEAD
 Comparison,Negative,495
 Comparison,Neutral,1291
 Comparison,Positive,917
@@ -12,17 +11,3 @@ Samsung,Positive,1830
 iPhone,Negative,588
 iPhone,Neutral,2230
 iPhone,Positive,1056
-=======
-Comparison,Negative,446
-Comparison,Neutral,1235
-Comparison,Positive,826
-Other,Negative,2203
-Other,Neutral,8444
-Other,Positive,3707
-Samsung,Negative,661
-Samsung,Neutral,5946
-Samsung,Positive,1882
-iPhone,Negative,520
-iPhone,Neutral,2146
-iPhone,Positive,995
->>>>>>> 408e90dd5b94d410dfe3f1c869c881599aae9b0e
