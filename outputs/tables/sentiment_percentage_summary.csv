@@ -1,0 +1,13 @@
+brand_category,sentiment_label,count,percentage
+Comparison,Negative,495,18.31
+Comparison,Neutral,1291,47.76
+Comparison,Positive,917,33.93
+Other,Negative,2275,15.8
+Other,Neutral,8387,58.25
+Other,Positive,3737,25.95
+Samsung,Negative,693,8.63
+Samsung,Neutral,5508,68.58
+Samsung,Positive,1830,22.79
+iPhone,Negative,588,15.18
+iPhone,Neutral,2230,57.56
+iPhone,Positive,1056,27.26
